@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.container {
+
+}
+
+header .col-3 {
+	float: left;
+}
+
+header .col-6 {
+	float: left;
+}
+
+header {
+	background-image: url("blue.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	width: 100%;
+}
+
+header .col-3 h1 {
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+}
+
+header .col-6 .navbar {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+header .col-6 li a {
+	color: white;
+	font-size: 18px;
+}
+
+header .col-6 li a:hover {
+	background-color: transparent;
+	color: #F2F2F2;
+}
+
+header .col-6 li {
+	margin-left: 25px
+}
+
+header .col-3 #media {
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+header .col-3 #media a {
+	margin-left: 35px;
+}
+
+header #row2 {
+	margin-top: 160px;
+}
+header #row2 h2 {
+	color: white;
+	font-size: 50px;
+}
+
+header #row2 p {
+	margin-top: 50px;
+	color: white;
+}
+
+header #row2 #pirmas {
+    margin-top: 70px;
+    background-color: #fc6a42;
+    border-radius: 4px;
+    padding: 14px 40px 14px 40px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+header #row2 #antras {
+    margin-top: 70px;
+    background-color: #4466c9;
+    border-radius: 4px;
+    padding: 14px 40px 14px 40px;
+    border: none;
+    color: white;
+    margin-right: 10px;
+}
+
+header #row2 #iphone {
+	padding-top: 50px;
+	margin-top: -120px;
+}
+
+header #row2 #rio {
+	position: absolute;
+	margin-top: 500px;
+}
+
+header #row2 #nine {
+	position: absolute;
+	margin-left: 15px;
+}
+
+header #row2 #london {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 60px;
+}
+
+header .row .col-12 #zemyn img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+section .row h1 {
+	margin-top: 120px;
+	color: #648cff;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+
+section .row p {
+	color: #999999;
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 80px;
+}
+
+section .row .col-4 {
+	float: left;
+	margin-bottom: 150px;
+}
+
+section #middle {
+	background-image: url("allinone.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+}
+
+section #middle h1 {
+	color: white;
+	text-align: left;
+}
+
+section #middle p {
+	color: white;
+	text-align: left;
+}
+
+section #middle1 {
+	background-color: #353854;
+	height: 400px;
+}
+
+section #middle1 .col-3 {
+	float: left;
+}
+
+section #middle1 .col-6 {
+	float: left;
+}
+
+section #middle1 .col-3 h1 {
+	margin-top: 20px;
+	position: absolute;
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+}
+
+section #middle1 .col-6 .navbar {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+section #middle1 .col-6 li a {
+	color: white;
+	font-size: 18px;
+}
+
+section #middle1 .col-6 li {
+	margin-left: 25px
+}
+
+section #middle1 .col-3 #media {
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+section #middle1 .col-3 #media a {
+	margin-left: 35px;
+}
+
+section #middle1 .col-12 img {
+	margin: 0 auto;
+	display: block;
+}
+
+section #middle1 .col-12 p {
+	text-align: center;
+	margin-top: 60px;
+	color: #565b87;
+}
+
+section #middle1 .col-6 li a:hover {
+	background-color: transparent;
+	color: #F2F2F2;
+}
